@@ -1,0 +1,11 @@
+<div class="timer">
+  <h4> Custom Timer </h4>
+  <span id="hours"> {{hsDiff}} </span>Hrs
+  <span id="minutes"> {{minsDiff}} </span>Min
+  <span id="seconds"> {{secsDiff}} </span>S
+  </div>
+<div class="button">
+  <button id="start" (click)="handleStart()" style="background-color: aquamarine; margin-right: 5px" >Stop/Start</button>
+  <button id="wait" (dblclick)="handleWait()" style="background-color: yellow ; margin-right: 5px">Wait</button>
+  <button id="reset" (click)="handleReset()" style="background-color: indianred ; margin-right: 5px">Reset</button>
+</div>
